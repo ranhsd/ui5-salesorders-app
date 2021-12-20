@@ -1,0 +1,16 @@
+<mvc:View controllerName="com.company.salesorderapp.salesorderapp.controller.Order" xmlns="sap.m" xmlns:semantic="sap.f.semantic" xmlns:mvc="sap.ui.core.mvc">
+
+    <semantic:SemanticPage id="listPage" preserveHeaderStateOnScroll="true" toggleHeaderOnTitleClick="false">
+        <semantic:titleHeading>
+            <Title id="listPageTitle" text="Customer Order" level="H2" />
+        </semantic:titleHeading>
+        <semantic:content>
+            <VBox>
+                <Text text="{orderView>/objectId}" />
+                <Text text="{orderView>/orderId}" />
+            </VBox>
+
+            
+        </semantic:content>
+    </semantic:SemanticPage>
+</mvc:View>
