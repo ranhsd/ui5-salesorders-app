@@ -8,6 +8,7 @@
             <VBox>
                 <Text text="{orderView>/objectId}" />
                 <Text text="{orderView>/orderId}" />
+                <Text text="I hate git" />
             </VBox>
 
             
